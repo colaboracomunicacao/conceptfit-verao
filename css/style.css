@@ -531,6 +531,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 		padding-bottom: 60px;
 		background-position: 100% 50%;
 		background-size: auto;
+		background-attachment: inherit;
 	}
 
 	#titulo-concept{
