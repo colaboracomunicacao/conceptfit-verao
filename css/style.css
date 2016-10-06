@@ -71,6 +71,11 @@ p {
 	line-height: 25px;
 	font-weight: 300;
 }
+
+ul{
+	padding: 0px;
+	margin: 0px;
+}
 /*HOME*/
 #btn-home{
 	font-size: 18px;
@@ -521,15 +526,20 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 @media (max-width: 479px) {
-	.button {
-		margin-bottom: 25px;
-	}
 	.hero-section.centered {
 		padding-top: 60px;
 		padding-bottom: 60px;
+		background-position: 100% 50%;
 	}
-	.section-subheading.center {
-		line-height: 30px;
+
+	#titulo-concept{
+		margin-top: 80px;
+		margin-bottom: 100px;
+	}
+
+	#titulo-concept img{
+		width: 100%;
+		height: 100%;
 	}
 	.grid-image {
 		width: 35%;
