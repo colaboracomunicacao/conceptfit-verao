@@ -189,7 +189,22 @@ ul{
 	box-shadow: 0 0 0 1px #2e9dff;
 }
 
-/*SERVICOS*/
+/*PROJETO*/
+.section-projeto p{
+	color: white;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.areas-servicos p{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+/*PARCEIROS*/
+.section-parceiros {
+	color: #676770 !important;
+}
 
 .button {
 	display: inline-block;
@@ -419,54 +434,6 @@ ul{
 	margin-top: 40px;
 }
 
-html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {
-	opacity: 0;
-	-webkit-transform: translate(0px, 50px);
-	-ms-transform: translate(0px, 50px);
-	transform: translate(0px, 50px);
-}
-
-html.w-mod-js *[data-ix="fade-in-left-scroll-in"] {
-	opacity: 0;
-	-webkit-transform: translate(-50px, 0px);
-	-ms-transform: translate(-50px, 0px);
-	transform: translate(-50px, 0px);
-}
-
-html.w-mod-js *[data-ix="fade-in-right-scroll-in"] {
-	opacity: 0;
-	-webkit-transform: translate(50px, 0px);
-	-ms-transform: translate(50px, 0px);
-	transform: translate(50px, 0px);
-}
-
-html.w-mod-js *[data-ix="fade-in-top-scroll-in"] {
-	opacity: 0;
-	-webkit-transform: translate(0px, -50px);
-	-ms-transform: translate(0px, -50px);
-	transform: translate(0px, -50px);
-}
-
-html.w-mod-js *[data-ix="fade-in-bottom-scroll-in"] {
-	opacity: 0;
-	-webkit-transform: translate(0px, 50px);
-	-ms-transform: translate(0px, 50px);
-	transform: translate(0px, 50px);
-}
-
-html.w-mod-js *[data-ix="bounce-in-scroll-in"] {
-	opacity: 0;
-	-webkit-transform: scale(0.6, 0.6);
-	-ms-transform: scale(0.6, 0.6);
-	transform: scale(0.6, 0.6);
-}
-
-html.w-mod-js *[data-ix="scale-on-scroll"] {
-	opacity: 0;
-	-webkit-transform: scale(0.01, 0.01);
-	-ms-transform: scale(0.01, 0.01);
-	transform: scale(0.01, 0.01);
-}
 
 @media (max-width: 991px) {
 	.navigation-link {
